@@ -1,0 +1,106 @@
+
+Admin@DESKTOP-9RCRQPM MINGW64 ~
+$ cd
+
+Admin@DESKTOP-9RCRQPM MINGW64 ~
+$ cd/c
+bash: cd/c: No such file or directory
+
+Admin@DESKTOP-9RCRQPM MINGW64 ~
+$ cd /c
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c
+$ ls
+'$Recycle.Bin'/             inetpub/         'Program Files (x86)'/
+'$SysReset'/                Intel/            ProgramData/
+ _acestream_cache_/         MSOCache/         Recovery/
+ Config.Msi/                OneDriveTemp/     swapfile.sys
+ Dell/                      opencv/          'System Volume Information'/
+'Documents and Settings'@   pagefile.sys      Users/
+ Emgu/                      PerfLogs/         Windows/
+ hiberfil.sys              'Program Files'/
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c
+$ ls
+'$Recycle.Bin'/             hiberfil.sys   'Program Files'/
+'$SysReset'/                inetpub/       'Program Files (x86)'/
+ _acestream_cache_/         Intel/          ProgramData/
+ Config.Msi/                MSOCache/       Recovery/
+ Dell/                      OneDriveTemp/   swapfile.sys
+'Documents and Settings'@   opencv/        'System Volume Information'/
+ Emgu/                      pagefile.sys    Users/
+ Git/                       PerfLogs/       Windows/
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c
+$ cd git/
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git
+$ ls
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git
+$ git config --global user.email tranducan.bkhcm11@gmail.com
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git
+$ git clone https://github.com/tranducan/EBook.git
+Cloning into 'EBook'...
+warning: You appear to have cloned an empty repository.
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git
+$ cd EBook
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ ls
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ ls
+Pro_WPF_4.5_in_CSharp_4th_edition.pdf
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ git add Pro_WPF_4.5_in_CSharp_4th_edition.pdf
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Pro_WPF_4.5_in_CSharp_4th_edition.pdf
+
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ git commit -m "tai pro_wpf_4.5 _ in Csharp 4th Edit" Pro_WPF_4.5_in_CSharp_4th                                                                                                                _edition.pdf
+[master (root-commit) c2f573e] tai pro_wpf_4.5 _ in Csharp 4th Edit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Pro_WPF_4.5_in_CSharp_4th_edition.pdf
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 36.13 MiB | 820.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/tranducan/EBook.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$ git commit -m "Second commit" Pro_WPF_4.5_in_CSharp_4th_edition.pdf
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-9RCRQPM MINGW64 /c/git/EBook (master)
+$
